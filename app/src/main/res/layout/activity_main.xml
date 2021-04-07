@@ -44,6 +44,7 @@
         android:layout_width="336dp"
         android:layout_height="68dp"
         android:text="Button"
+
         app:backgroundTint="#FFFFFF"
         app:cornerRadius="0"
         tools:layout_editor_absoluteX="37dp"
@@ -191,6 +192,28 @@
         tools:layout_editor_absoluteX="192dp"
         tools:layout_editor_absoluteY="185dp" />
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="minhas chaves"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="extrato Pix"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="585dp" />
+
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="wrap_content"
@@ -235,5 +258,50 @@
         app:srcCompat="@drawable/qrode"
         tools:layout_editor_absoluteX="192dp"
         tools:layout_editor_absoluteY="360dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_baseline_vpn_key_24"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_baseline_menu_24"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="85dp"
+        android:layout_height="95dp"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/adw"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="138dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
